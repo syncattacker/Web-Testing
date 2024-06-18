@@ -8,6 +8,9 @@ export default function Hero(props) {
   const joinUs = () => {
     window.location.href = "https://forms.gle/uy7Uneh2yZS7b1PA7";
   };
+  const sponsorUs = () => {
+    window.location.href = "https://forms.gle/Sxd2L3NAjWxcGfZA8";
+  };
   return (
     <section className="hero" id="home">
       <div className="hero-container grid grid-center grid-2-columns hero-gap hero-padding">
@@ -21,7 +24,7 @@ export default function Hero(props) {
             <button type="button" onClick={joinUs} className="join-team">
               Join Us <FaArrowRightLong />
             </button>
-            <button type="button" className="sponsor">
+            <button type="button" onClick={sponsorUs} className="sponsor">
               Sponsor <GiLaurelsTrophy className="trophy" />
             </button>
           </div>
