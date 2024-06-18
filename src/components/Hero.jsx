@@ -21,7 +21,7 @@ export default function Hero(props) {
             <button type="button" onClick={joinUs} className="join-team">
               Join Us <FaArrowRightLong />
             </button>
-            <button type="button" onClick={joinUs} className="sponsor">
+            <button type="button" className="sponsor">
               Sponsor <GiLaurelsTrophy className="trophy" />
             </button>
           </div>
