@@ -1,0 +1,26 @@
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.hero-container {
+  max-width: 130rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-2-columns {
+  grid-template-columns: repeat(2, 1.5fr);
+}
+
+.grid-3-columns {
+  grid-template-columns: repeat(3, 1fr);
+}

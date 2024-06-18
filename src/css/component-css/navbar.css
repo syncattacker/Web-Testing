@@ -1,0 +1,45 @@
+.navigation-header {
+  background-color: #f2f2f2;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 140rem;
+  margin: 0 auto;
+  padding: 1.4rem 0 6.4rem 0;
+}
+
+.logo {
+  width: 8rem;
+}
+
+.nav-elements {
+  list-style: none;
+  display: flex;
+  gap: 3.4rem;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: #367bf0;
+  font-size: 1.6rem;
+  font-weight: 500;
+  position: relative;
+}
+
+.nav-links::after {
+  position: absolute;
+  content: "";
+  background-color: #636363;
+  height: 0.15rem;
+  width: 0;
+  bottom: 0;
+  left: 0;
+  transition: all 0.5s;
+}
+
+.nav-links:hover::after {
+  width: 100%;
+}

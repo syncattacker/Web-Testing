@@ -1,0 +1,45 @@
+.events {
+  padding: 6.4rem 0 9.6rem 0;
+  background-color: #f2f2f2;
+}
+
+.event-heading {
+  text-transform: uppercase;
+  color: #fea44c;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 0.15rem;
+  margin-bottom: 1.6rem;
+}
+
+.event-archives {
+  margin-bottom: 6.4rem;
+}
+
+.main-heading {
+  font-size: 4.4rem;
+  font-weight: 600;
+  margin-bottom: 9.6rem;
+}
+
+.btn {
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.explore-events {
+  text-decoration: none;
+  letter-spacing: 0.06rem;
+  padding: 1rem 1.4rem;
+  background: #2777ff;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: #2777ff solid 0.3rem;
+  box-shadow: 0 0 10px #367bf0;
+  font-size: 1.6rem;
+}
+
+.btn:hover {
+  transform: scale(1.15);
+}

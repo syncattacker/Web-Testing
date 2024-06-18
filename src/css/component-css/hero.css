@@ -1,0 +1,121 @@
+.hero {
+  background-color: #f2f2f2;
+}
+
+.hero-padding {
+  padding-bottom: 2.4rem;
+}
+
+.hero-gap {
+  gap: 6.4rem;
+}
+
+.heading-primary {
+  letter-spacing: 0.12rem;
+  font-size: 5.6rem;
+  font-weight: 600;
+  margin-bottom: 3.4rem;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.special-text {
+  color: #367bf0;
+  position: relative;
+  cursor: default;
+}
+
+.special-text::after {
+  position: absolute;
+  content: "";
+  background-color: #000;
+  height: 0;
+  width: 100%;
+  bottom: 12%;
+  left: 0;
+  transition: all 0.3s;
+}
+
+.special-text:hover::after {
+  height: 0.2rem;
+}
+
+.description {
+  font-size: 1.8rem;
+  text-align: justify;
+  margin-bottom: 3.4rem;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 6.4rem;
+}
+
+.join-team {
+  display: flex;
+  font-weight: 600;
+  gap: 1rem;
+  align-items: center;
+  letter-spacing: 0.05rem;
+  padding: 1rem 1.4rem;
+  background: none;
+  border: none;
+  border: #2777ff solid 0.3rem;
+  font-size: 1.6rem;
+  transition: all 0.5s;
+  text-transform: uppercase;
+}
+
+.join-team:hover {
+  box-shadow: 0 0 10px #367bf0;
+  background: #2777ff;
+  color: #fff;
+  transform: scale(1.15);
+}
+
+.sponsor {
+  display: flex;
+  font-weight: 600;
+  gap: 1.2rem;
+  align-items: center;
+  letter-spacing: 0.05rem;
+  padding: 1rem 1.4rem;
+  background: #fea44c;
+  border: none;
+  border: #fea44c solid 0.2rem;
+  box-shadow: 0 0 10px #fea44c;
+  font-size: 1.6rem;
+  transition: all 0.5s;
+  text-transform: uppercase;
+}
+
+.sponsor:hover {
+  color: #fff;
+  transform: scale(1.15);
+}
+
+.trophy {
+  font-size: 2.2rem;
+}
+
+.arrow {
+  text-align: center;
+}
+
+.arrow-down {
+  font-size: 3rem;
+  cursor: pointer;
+  color: #000;
+  animation: jump 1s cubic-bezier(0.5, 0.05, 1, 0.5) infinite alternate;
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(-8px) scaleY(0.8);
+  }
+  100% {
+    transform: translateY(8px) scaleY(1);
+  }
+}

@@ -1,0 +1,114 @@
+.upcoming-events {
+  padding: 6.4rem 0 9.6rem 0;
+}
+
+.event-view {
+  width: 100%;
+  margin-bottom: 1.4rem;
+}
+
+.event-up-name {
+  font-size: 4.6rem;
+  font-weight: 500;
+  color: #fea44c;
+  letter-spacing: 0.04rem;
+  text-shadow: 1px 1px 5px #fea44c;
+  margin-bottom: 1.2rem;
+}
+
+.event-intro {
+  font-size: 1.6rem;
+  line-height: 1.3;
+  margin-bottom: 3.4rem;
+}
+
+.event-headers {
+  position: relative;
+}
+.event-header-main {
+  text-transform: uppercase;
+  color: #2777ff;
+  font-size: 2.2rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 3.4rem;
+  position: relative;
+}
+
+.event-detail-card {
+  background-color: #fff;
+}
+
+.dates {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.4rem;
+}
+
+.date {
+  font-size: 2.6rem;
+  font-weight: 700;
+}
+
+.event-date-data {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.information-events {
+  padding: 0 8rem 0 22rem;
+}
+
+.name-of-event {
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+}
+
+.event-timing {
+  font-size: 1.4rem;
+}
+
+.lecture-series {
+  list-style: none;
+  margin-top: 1.4rem;
+}
+
+.lecture-breakdown {
+  margin-bottom: 1.4rem;
+}
+
+.lecture-name {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.lecture-time {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}
+
+.register-btn {
+  text-align: center;
+}
+
+.other {
+  letter-spacing: 0.1rem !important;
+  font-weight: 600;
+  transition: all 0.5s;
+  margin-bottom: 2.4rem;
+}
+
+.other:hover {
+  transform: scale(1.2);
+}
+
+.event-break-up {
+  margin-bottom: 5.4rem;
+}
+
+.event-notify {
+  font-size: 1.6rem;
+}
