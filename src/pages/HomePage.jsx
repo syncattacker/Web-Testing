@@ -7,6 +7,7 @@ import Events from "../components/Events";
 import AboutUs from "../components/AboutUs";
 import Upcoming from "../components/Upcoming";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 export default function HomePage() {
   return (
@@ -27,6 +28,7 @@ export default function HomePage() {
       <Events />
       <AboutUs />
       <Contact />
+      <Footer />
     </>
   );
 }

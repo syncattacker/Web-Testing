@@ -21,10 +21,20 @@ export default function Hero(props) {
           </p>
           <p className="description">{props.description}</p>
           <div className="cta-buttons">
-            <button type="button" onClick={joinUs} className="join-team">
+            <button
+              type="button"
+              onClick={joinUs}
+              className="join-team"
+              id="join"
+            >
               Join Us <FaArrowRightLong />
             </button>
-            <button type="button" onClick={sponsorUs} className="sponsor">
+            <button
+              type="button"
+              onClick={sponsorUs}
+              className="sponsor"
+              id="sponsor"
+            >
               Sponsor <GiLaurelsTrophy className="trophy" />
             </button>
           </div>

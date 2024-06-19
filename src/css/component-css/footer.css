@@ -1,0 +1,107 @@
+.footer {
+  padding: 6.4rem 0 3.6rem 0;
+  background-color: #000;
+  color: #fff;
+}
+
+.footer-container {
+  max-width: 130rem;
+  margin: 0 auto;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  column-gap: 9.6rem;
+}
+
+.logo-footer {
+  text-transform: uppercase;
+  font-size: 4.6rem;
+  letter-spacing: 0.2rem;
+  font-weight: 900;
+  text-align: justify;
+}
+
+.footer-text {
+  font-size: 1.6rem;
+  margin-bottom: 0.4rem;
+  line-height: 1.2;
+  padding: 0 0.2rem 0 0;
+}
+
+.bold-text-footer {
+  font-size: 1.6rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.footer-heading {
+  padding-top: 0.8rem;
+  font-size: 2rem;
+  letter-spacing: 0.06rem;
+  text-transform: uppercase;
+  margin-bottom: 2.4rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.footer-links:link,
+.footer-links:visited {
+  text-decoration: none;
+  color: #b3b3b3;
+  font-size: 1.5rem;
+  display: inline;
+  transition: all 0.6s;
+}
+
+.maps-link:link,
+.maps-link:visited {
+  text-decoration: none;
+  color: #b3b3b3;
+  font-size: 1.5rem;
+  display: inline;
+  transition: all 0.6s;
+  border-bottom: #fff 0.2rem solid;
+}
+
+.footer-links:active,
+.footer-links:hover {
+  transform: scaleX(1.1);
+  color: #fff;
+}
+
+.maps-link:active,
+.maps-link:hover {
+  color: #fff;
+}
+
+.address-footer {
+  font-size: 1.4rem;
+  text-align: justify;
+  color: #b3b3b3;
+  margin-bottom: 1.2rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+}
+
+.straight-line {
+  width: 70%;
+  background-color: #cccccc;
+  height: 0.15rem;
+  margin: 5.6rem auto 5.6rem auto;
+}
+
+.policy-copyright {
+  display: flex;
+  gap: 9.4rem;
+  align-items: center;
+  justify-content: center;
+}
