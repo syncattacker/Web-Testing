@@ -6,6 +6,7 @@ import Alumni from "../components/Alumni";
 import Events from "../components/Events";
 import AboutUs from "../components/AboutUs";
 import Upcoming from "../components/Upcoming";
+import Contact from "../components/Contact";
 
 export default function HomePage() {
   return (
@@ -25,6 +26,7 @@ export default function HomePage() {
       <Upcoming />
       <Events />
       <AboutUs />
+      <Contact />
     </>
   );
 }

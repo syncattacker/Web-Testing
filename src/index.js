@@ -9,8 +9,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Router>
     <Routes>
-      {/* <Route path="/mobile-not-supported" component={MobileNotSupported} /> */}
-      <Route path="/" element={<App />} />
+      <Route exact path="/" element={<App />} />
       <Route path="*" element={<Error />} />
     </Routes>
   </Router>

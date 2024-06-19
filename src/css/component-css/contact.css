@@ -1,0 +1,65 @@
+.contact {
+  padding: 6.4rem 0 4.6rem 0;
+  background-color: #f2f2f2;
+}
+
+.edit {
+  margin-bottom: 2.4rem;
+}
+
+.contact-gap {
+  column-gap: 3.4rem;
+}
+
+.contact-div {
+  padding: 14.4rem 0 0 0;
+}
+
+.connect-icon-div {
+  padding: 1.2rem;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.245);
+  transition: all 0.5s;
+  position: relative;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.connect-icon-div:hover {
+  background-color: #000;
+}
+
+.connect-icon-div:hover .connect-icon {
+  color: #fff;
+}
+
+.contact-text {
+  font-size: 1.8rem;
+  text-align: justify;
+  margin-bottom: 4.4rem;
+}
+
+.contact-image {
+  padding: 9.4rem 9.4rem 0 9.4rem;
+}
+
+.contact-vector {
+  width: 100%;
+}
+
+.contact-links {
+  display: flex;
+  align-items: center;
+  gap: 3.4rem;
+}
+
+.style-a:link,
+.style-a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+.connect-icon {
+  font-size: 3.6rem;
+}
