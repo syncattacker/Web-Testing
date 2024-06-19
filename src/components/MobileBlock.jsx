@@ -10,7 +10,7 @@ const Optimizing = () => {
         alt="Optimizing For Mobiles and Tablets"
         className="block-image"
       />
-      <div className="reasonn-text">
+      <div className="reason-text">
         <p className="reason">
           We Are Optimising Our Website for mobile and tablet users.
         </p>
