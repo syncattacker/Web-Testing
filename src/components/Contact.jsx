@@ -3,7 +3,7 @@ import "../css/general-css/global.css";
 import "../css/component-css/contact.css";
 import contactUs from "../img/contact-us.png";
 import { IoMdMailUnread } from "react-icons/io";
-import { FaLinkedin } from "react-icons/fa";
+import { LiaLinkedinIn } from "react-icons/lia";
 import { RiInstagramFill } from "react-icons/ri";
 
 export default function Contact() {
@@ -41,7 +41,7 @@ export default function Contact() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <FaLinkedin className="connect-icon" />
+                  <LiaLinkedinIn className="connect-icon" />
                 </a>
               </div>
               <div className="connect-icon-div">

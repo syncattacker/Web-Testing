@@ -12,11 +12,12 @@
 }
 
 .contact-div {
-  padding: 14.4rem 0 0 0;
+  padding: 4.4rem 0 0 0;
 }
 
 .connect-icon-div {
-  padding: 1.2rem;
+  padding: 0.6rem 0.6rem 0.2rem 0.6rem;
+  text-align: center;
   background-color: #fff;
   border-radius: 50%;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.245);
@@ -31,7 +32,7 @@
 }
 
 .connect-icon-div:hover .connect-icon {
-  color: #fff;
+  color: #367bf0;
 }
 
 .contact-text {
@@ -41,7 +42,7 @@
 }
 
 .contact-image {
-  padding: 9.4rem 9.4rem 0 9.4rem;
+  padding: 0 9.4rem 0 9.4rem;
 }
 
 .contact-vector {
@@ -61,5 +62,5 @@
 }
 
 .connect-icon {
-  font-size: 3.6rem;
+  font-size: 3.2rem;
 }
