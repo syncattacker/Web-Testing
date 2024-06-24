@@ -1,3 +1,4 @@
+import React from "react";
 import "../css/component-css/about.css";
 import "../css/general-css/global.css";
 import teamwork from "../img/teamwork/teamwork.jpg";
@@ -37,7 +38,7 @@ export default function AboutUs() {
                 <MdOutlineGroups className="target" />
               </div>
               <div>
-                <p className="m-text">Mission</p>
+                <p className="m-text">who we are</p>
               </div>
             </div>
             <div>

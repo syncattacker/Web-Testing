@@ -1,3 +1,4 @@
+import React from "react";
 import "../css/general-css/global.css";
 import "../css/component-css/hero.css";
 import { FaArrowRightLong } from "react-icons/fa6";
