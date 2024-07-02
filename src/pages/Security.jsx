@@ -20,7 +20,7 @@ export default function Security() {
   return (
     <>
       <section className="security">
-        <section className="header">
+        <section className="main">
           <div className="main-bug">
             <div className="container grid grid-2-columns align">
               <div className="image-bug">
