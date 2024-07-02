@@ -45,7 +45,7 @@ export default function Hero(props) {
         </div>
       </div>
       <div className="arrow">
-        <a href="#main-content">
+        <a href="#events">
           <IoIosArrowDown className="arrow-down" />
         </a>
       </div>

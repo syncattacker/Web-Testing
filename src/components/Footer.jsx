@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "../css/general-css/global.css";
 import "../css/component-css/footer.css";
 
@@ -26,9 +27,9 @@ export default function Footer() {
             <a href="#join" className="footer-links">
               Join Us
             </a>
-            <a href="#sponsor" className="footer-links">
-              Sponsor
-            </a>
+            <NavLink exact to="/security" className="footer-links">
+              Security
+            </NavLink>
           </div>
         </div>
         <div className="footer-explore">

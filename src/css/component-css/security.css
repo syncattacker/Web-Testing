@@ -1,0 +1,158 @@
+.security {
+  background-color: #f1e1fe62;
+}
+
+.main-bug {
+  padding: 5.6rem 0 6.4rem 0;
+}
+
+.bug-image {
+  width: 100%;
+}
+
+.align {
+  align-items: center;
+  column-gap: 9.6rem;
+  row-gap: 4.6rem;
+}
+
+.bold-our {
+  font-size: 6rem;
+  line-height: 1;
+  color: #2d3958;
+  font-weight: 700;
+}
+
+.disclose {
+  font-size: 3.4rem;
+  font-weight: 600;
+  color: #6a35ff;
+}
+
+.bug-heading {
+  margin-bottom: 2.6rem;
+}
+
+.reward {
+  font-size: 1.8rem;
+  margin-bottom: 3.6rem;
+}
+
+.submit {
+  padding: 1.2rem 2.8rem;
+  background: none;
+  border: none;
+  letter-spacing: 0.08rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #f7d844;
+  box-shadow: 0 0 10px #fea44c;
+  transition: all 0.5s;
+}
+
+.submit:hover {
+  transform: scale(1.05);
+}
+
+.introduction {
+  padding: 1.2rem 0 6.4rem 0;
+}
+
+.security-headings {
+  font-size: 6.2rem;
+  font-weight: 800;
+  margin-bottom: 1.6rem;
+  color: #2d3958;
+}
+
+.security-text {
+  font-size: 1.8rem;
+  text-align: justify;
+}
+
+.sec-introimage {
+  width: 100%;
+}
+
+.scope-define {
+  margin-bottom: 1.2rem;
+  list-style: none;
+  font-weight: bold;
+}
+
+.focus {
+  font-weight: 800;
+}
+
+.bugs-naccept {
+  list-style: none;
+  margin-top: 3.6rem;
+  row-gap: 1.2rem;
+  column-gap: 2.4rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.grid-3-column {
+  grid-template-columns: repeat(3, auto);
+}
+
+.naccept-icon {
+  color: #6a35ff;
+  font-size: 1.8rem;
+}
+
+.flex-col {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.safe {
+  list-style: none;
+  margin-top: 1.2rem;
+}
+
+.check-icon {
+  color: #00b300;
+}
+
+.safe-points {
+  font-size: 1.4rem;
+}
+
+.mr-md {
+  margin-bottom: 1rem;
+}
+
+.confidentiality {
+  padding: 4.2rem 0 9.6rem 0;
+}
+
+.conf-heading {
+  font-size: 6rem;
+  color: #6a35ff;
+  font-weight: 800;
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+.code {
+  display: inline-block;
+  margin-top: 3.8rem;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.7rem;
+  padding: 1.2rem 1.2rem;
+  background-color: #f7d844;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.04rem;
+  box-shadow: 0 0 10px #fea44c;
+  transition: all 0.5s;
+}
+
+.code:hover {
+  transform: scale(1.05);
+}

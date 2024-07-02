@@ -81,7 +81,7 @@ export default function Events() {
     },
   ];
   return (
-    <section className="events" id="main-content">
+    <section className="events" id="events">
       <div className="container">
         <div className="headings">
           <p className="event-heading">event archives</p>

@@ -15,6 +15,10 @@ export default function HomePage() {
       <Navbar
         logo={CyberonitesLogo}
         text="Cyberonites A Cyber Security Club Of GLA University"
+        aboutLink="#about"
+        eventLink="#events"
+        upcomingLink="#upcoming-events"
+        contactLink="#contact"
       />
       <Hero
         image={HeroImage}
