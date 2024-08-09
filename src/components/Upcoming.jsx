@@ -2,22 +2,12 @@ import React from "react";
 import "../css/component-css/upcoming.css";
 import "../css/general-css/global.css";
 import escalateX from "../img/event-videos/escalateX.mp4";
-import { useState } from "react";
 
 export default function Upcoming() {
-  const [resultText, setResultText] = useState("");
   const handleEvent = () => {
-    const currentDate = new Date();
-    const date = currentDate.getDate();
-    const monthIndex = currentDate.getMonth();
-    let textToShow = "";
-    if (date === 18 && monthIndex === 7) {
-      textToShow = "Hurray! Redirecting";
-    } else {
-      textToShow = "Oops! Event Registration Will Open Soon!";
-    }
-    setResultText(textToShow);
+    window.location.href = "https://multigrad.in/gla-cyberonites";
   };
+
   return (
     <section className="upcoming-events" id="upcoming-events">
       <div className="container">
@@ -38,7 +28,6 @@ export default function Upcoming() {
           >
             REGISTER NOW
           </button>
-          <p className="event-notify">{resultText}</p>
         </div>
       </div>
     </section>
